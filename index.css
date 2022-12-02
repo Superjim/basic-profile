@@ -10,6 +10,11 @@
   --offwhite: #fffcf9;
 }
 
+/* pick one - smooth scroll or stick navbar
+  html {
+  scroll-behavior: smooth;
+} */
+
 body {
   display: flex;
   flex-direction: column;
@@ -36,6 +41,7 @@ nav {
   max-width: 200px;
   padding: 1rem 0 1rem 0;
   text-align: center;
+  text-decoration: none;
 }
 .navlink:hover {
   background-color: #387dba;
@@ -47,7 +53,6 @@ nav {
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: 800;
-  text-decoration: none;
 }
 
 .image-container img {
@@ -63,6 +68,7 @@ nav {
 
 .quote-text {
   background-color: var(--offwhite);
+  color: rgb(40, 41, 40);
   min-width: 180px;
   max-width: 300px;
   text-align: center;
@@ -70,15 +76,26 @@ nav {
   border-radius: 1rem;
 }
 
-.early-life {
+.container {
   width: 80%;
+  background-color: teal;
+  box-shadow: 0px 30px 0px -20px var(--yellow);
+  margin: 1rem 0 1rem 0;
+  padding: 1rem;
+  color: var(--offwhite);
 }
-.career {
-  width: 80%;
+
+.portfolio .inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.filmography {
-  width: 80%;
+
+.links a {
+  color: var(--offwhite);
 }
-.links {
-  width: 80%;
+
+.links a:visited {
+  color: rgb(27, 0, 27);
 }
