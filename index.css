@@ -1,0 +1,84 @@
+:root {
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  --black: black;
+  --white: white;
+  --blue: #26547c;
+  --pink: #ef476f;
+  --yellow: #ffd116;
+  --cyan: #06d6a0;
+  --offwhite: #fffcf9;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--pink);
+}
+
+nav {
+  background-color: var(--blue);
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 30px 0px -20px var(--yellow);
+}
+
+.navlink {
+  color: var(--offwhite);
+  font-size: 1.2rem;
+  min-width: 150px;
+  max-width: 200px;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+}
+.navlink:hover {
+  background-color: #387dba;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navbar-logo {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.image-container img {
+  margin-top: 75px;
+  box-shadow: 0px 30px 0px -20px var(--yellow);
+}
+
+.quote-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2rem 0 0;
+}
+
+.quote-text {
+  background-color: var(--offwhite);
+  min-width: 180px;
+  max-width: 300px;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.early-life {
+  width: 80%;
+}
+.career {
+  width: 80%;
+}
+.filmography {
+  width: 80%;
+}
+.links {
+  width: 80%;
+}
