@@ -57,7 +57,7 @@ nav {
 
 .image-container img {
   margin-top: 75px;
-  box-shadow: 0px 30px 0px -20px var(--yellow);
+  box-shadow: 10px 30px 0px -20px var(--yellow);
 }
 
 .quote-container {
@@ -79,7 +79,7 @@ nav {
 .container {
   width: 80%;
   background-color: teal;
-  box-shadow: 0px 30px 0px -20px var(--yellow);
+  box-shadow: 10px 30px 0px -20px var(--yellow);
   margin: 1rem 0 1rem 0;
   padding: 1rem;
   color: var(--offwhite);
